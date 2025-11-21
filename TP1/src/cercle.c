@@ -1,10 +1,26 @@
-#include <stdio.h>
-#include <string.h>
+int main(int argc, char *argv[])
+{
 
-int main() {
-double pi = 3.1416;
-double r = 6;  
-    printf("L'air du cercle = %f", pi*(r*r));
-   printf("Le périmètre du cercle = %f", pi*(r+r));
+  float aire = 0;
+    float rayon = 0;
+    float perimetre = 0 ;
+  
+
+  
+  printf("Entrez le rayon du cercle !");
+  scanf("%f", &rayon);
+
+
+  
+
+    aire = (rayon * rayon) *  3.14159 ;
+    perimetre=  2*3.14159*rayon 
+
+
+  
+ 
+  
+  printf ("L'aire du cercle est d'environ%f et son perimetre est d'environ%f\n",aire,perimetre);
+       
+  return 0;
 }
-
